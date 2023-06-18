@@ -1,0 +1,160 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+body {
+    width: 100%;
+    max-width: 1920px;
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1920px;
+}
+.header__item--1 {
+    display: flex;
+
+}
+.logo {
+    padding: 4px 46px 3px 46px;
+    background-color: #00A886;
+}
+.header__item__text {
+    color: #1D252D;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+.header__item--2 {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.search__btn {
+    background: none;
+    border: none;
+}
+.search__input {
+    border: 0;
+    border-bottom: 1px solid #A1A8AE;
+    background-color: #fff;
+    width: 237px;
+    height: 26px;
+}
+.haed__icon {
+    color: #A1A8AE;
+    margin-left: 24px;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+.haed__icon--1 {
+    margin-left: 0;
+    margin-right: 36px;
+}
+.haed__icon--2 {
+    margin-left: 0;
+    margin-right: 36px;
+} 
+.haed__icon:hover {
+    color: #00A886;
+}
+.lang__btn {
+    border: none;
+    background: none;
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.lang__btn:hover {
+    color: #00A886;
+}
+.slesh {
+    color: #000000;
+    font-size: 20px;
+}
+
+
+
+/* Section--1 */
+.section--1 {
+    width: 100%;
+    height: 900px;
+    background-image: url('../imges/sect1-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.sect1__item {
+    display: flex;
+    align-items: end;
+    margin-bottom: 158px;
+    margin-left: 213px;
+}
+.exclusive {
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 150%;
+    width: 662px;
+}
+.exclusive::before {
+    content: "";
+    display: block;
+    background-color: #00A886;
+    width: 100px;
+    height: 10px;
+    margin-bottom: 28px;
+}
+
+
+.sect1__numb {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.scroll__numb1 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+.scroll__numb2 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+.scroll__numb1::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.8);
+    transform: rotate(90deg);
+}
