@@ -237,7 +237,8 @@ body {
     display: flex;
     align-items: end;
     flex-direction: row;
-    /* margin-top: 400px; */
+    position: relative;
+    top: 218px;
 }
 .shower__numb--1 {
     font-style: normal;
@@ -375,4 +376,230 @@ body {
     color: #fff;
     margin-top: 40px;
     width: 602px;
+}
+
+
+/* Section--4 */
+.section--4 {}
+.care {
+    margin: 100px 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.care__title {
+    width: 406px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.care__title::after {
+    content: "";
+    display: block;
+    background-color: #00A886;
+    width: 48px;
+    height: 12px;
+    position: relative;
+    left: 155px;
+    top: -30px;
+}
+
+
+.stages {
+    display: flex;
+    flex-direction: column;
+}
+.stages__container {
+    display: flex;
+}
+.stages__item {
+    width: 243.25px;
+    height: 205px;
+    border: 1px solid var(--background, #F2F2F2);
+    border-bottom: 0;
+}
+.stages__item__container {
+    margin: 24px 27px 31px 17px;
+}
+.stages__item--1 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.stages__number {
+    width: 84px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+
+}
+.stages__number--1 {
+    color: #00A886;
+}
+
+.stages__text--1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1D252D;
+    width: 183px;
+}
+
+.stages__text--2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1D252D;
+    width: 197px;
+}
+.stages__text--3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1D252D;
+    width: 183px;
+}
+.stages__text--4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1D252D;
+    width: 161px;
+    position: relative;
+    left: 10px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 112px;
+}
+
+
+/* Section--5 */
+.section--5 {
+    width: 100%;
+    height: 760px;
+    background-image: url('../imges/platform/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .left__img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+} */
+.platform {
+    width: 1500px;
+    height: 600px;
+}
+.platform__container {
+    width: 513px;
+    height: 600px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(8px);
+}
+.plat__contain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.platform__title {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    width: 302px;
+    margin-left: 40px;
+}
+
+.platform__title::after {
+    content: "";
+    display: block;
+    background-color: #00A886;
+    width: 48px;
+    height: 12px;
+    position: relative;
+    left: 175px;
+    top: -30px;
+}
+
+
+.discount__list {
+    list-style-type: square;
+    transform: scale(1.15);
+    margin-top: 35px;
+    margin-left: 17px;
+}
+.discount__li::marker {
+    color: #00A886;
+}
+.discount__li {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.9;
+    
+    margin-left: 30px;
+}
+.discount__li--1 {
+    width: 305px;
+    margin-bottom: 18px;
+
+    
+}
+.discount__li--2 {
+    width: 355px;
+    margin-bottom: 12px;
+}
+.discount__li--3 {
+    width: 305px;
+    margin-bottom: 12px;
+}
+.discount__li--4 {
+    width: 355px;
+    margin-bottom: 18px;
+}
+.discount__li--5 {
+    width: 305px;
+    margin-bottom: 40px;
+}
+
+
+.discount__btn__container {
+    margin-left: 43px;
+    margin-top: 5px;
+}
+.discount__btn {
+    padding: 17px 35px 17px 36px;
+    color: #FFF;
+    font-size: 14px;
+    font-family: Gotham;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: var(--green, #00A886);
+    border: none;
 }
