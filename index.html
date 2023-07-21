@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hansgroph2</title>
     <script src="https://kit.fontawesome.com/dc0d3d188c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 </head>
 <body>
     <div class="header">
@@ -13,11 +14,14 @@
             <div class="logo">
                 <img src="./imges/logo.png" alt="">
             </div>
-            <div class="header__item__text"><b>КАТАЛОГ</b></div>
-            <div class="header__item__text"><b>ИНФОРМАЦИЯ</b></div>
-            <div class="header__item__text"><b>НОВИНКИ</b></div>
-            <div class="header__item__text"><b>СЕРВИС</b></div>
-            <div class="header__item__text"><b>КАК НАС НАЙТИ</b></div>
+            <div class="header__item__text--0">
+                <div class="header__item__text head__text--1"><b>КАТАЛОГ</b><span class="underline"></span></div>
+                <div class="header__item__text head__text--2"><b>ИНФОРМАЦИЯ</b></div>
+                <div class="header__item__text head__text--3"><b>НОВИНКИ</b></div>
+                <div class="header__item__text head__text--4"><b>СЕРВИС</b></div>
+                <div class="header__item__text head__text--5"><b>КАК НАС НАЙТИ</b></div> 
+            </div>
+            
         </div>
         <div class="header__item--2">
             <div class="phone"><i class="fa-solid fa-phone haed__icon haed__icon--1"></i></div>
@@ -38,21 +42,21 @@
         </div>
     </div>
     <section class="section--1">
-            <div class="sect1__item">
-               <h1 class="exclusive">Экслюзивные новинки для вашей кухни</h1> 
+        <div class="sect1__item">
+            <h1 class="exclusive">Экслюзивные новинки для вашей кухни</h1> 
+        </div>
+        <div class="sect1__numb">
+            <div style="margin-bottom: 75px;"><span class="scroll__numb1">1</span></div>
+            <div class="scroll__line">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="sect1__numb">
-                <div style="margin-bottom: 75px;"><span class="scroll__numb1">1</span></div>
-                <div class="scroll__line">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div style="margin-top: 75px;"><span  class="scroll__numb2">6</span></div>
-            </div>
+            <div style="margin-top: 75px;"><span  class="scroll__numb2">6</span></div>
+        </div>
     </section>
     <section class="section--2">
         <div class="shower">
@@ -190,80 +194,158 @@
     <section class="section--6">
         <div class="recently">
             <h3 class="recently__title">НЕДАВНО ПРОСМОТРЕННыЕ</h3>
-            <div class="recently__container">
-                <div class="recently__item recently__item--1">
-                    <div class="recently__disc">
-                        <p style="margin: 0;">АКЦИЯ</p>
-                    </div>
-                    <div class="recent__img">
-                        <img src="./imges/tovar.png" alt="">
-                    </div>
-                    <div class="recent__text">
-                        <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
-                    </div>
-                    <div class="recent__down">
-                        <div class="recent__numb">
-                            <p class="recent__numb--1">5689 грн</p>
-                            <p class="recent__numb--2">4295 грн</p>
-                        </div>
-                        <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
-                    </div>
-                </div>
-                <div class="recently__item">
-                    <div class="recently__disc">
-                        <p style="margin: 0;">АКЦИЯ</p>
-                    </div>
-                    <div class="recent__img">
-                        <img src="./imges/tovar.png" alt="">
-                    </div>
-                    <div class="recent__text">
-                        <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
-                    </div>
-                    <div class="recent__down">
-                        <div class="recent__numb">
-                            <p class="recent__numb--1">5689 грн</p>
-                            <p class="recent__numb--2">4295 грн</p>
-                        </div>
-                        <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
-                    </div>
-                </div>
-                <div class="recently__item">
-                    <div class="recently__disc">
-                        <p style="margin: 0;">АКЦИЯ</p>
-                    </div>
-                    <div class="recent__img">
-                        <img src="./imges/tovar.png" alt="">
-                    </div>
-                    <div class="recent__text">
-                        <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
-                    </div>
-                    <div class="recent__down">
-                        <div class="recent__numb">
-                            <p class="recent__numb--1">5689 грн</p>
-                            <p class="recent__numb--2">4295 грн</p>
-                        </div>
-                        <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
-                    </div>
-                </div>
-                <div class="recently__item">
-                    <div class="recently__disc">
-                        <p style="margin: 0;">АКЦИЯ</p>
-                    </div>
-                    <div class="recent__img">
-                        <img src="./imges/tovar.png" alt="">
-                    </div>
-                    <div class="recent__text">
-                        <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
-                    </div>
-                    <div class="recent__down">
-                        <div class="recent__numb">
-                            <p class="recent__numb--1">5689 грн</p>
-                            <p class="recent__numb--2">4295 грн</p>
-                        </div>
-                        <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
-                    </div>
-                </div>
+            <div data-slider class="recent-slider">
+                                    <div class="recently__container">
+                                        <div class="recently__item recently__item--1">
+                                            <div class="recently__disc">
+                                                <p style="margin: 0;">АКЦИЯ</p>
+                                            </div>
+                                            <div class="recent__img">
+                                                <img src="./imges/tovar.png" alt="">
+                                            </div>
+                                            <div class="recent__text">
+                                                <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
+                                            </div>
+                                            <div class="recent__down">
+                                                <div class="recent__numb">
+                                                    <p class="recent__numb--1">5689 грн</p>
+                                                    <p class="recent__numb--2">4295 грн</p>
+                                                </div>
+                                                <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="recently__item">
+                                            <div class="recently__disc">
+                                                <p style="margin: 0;">АКЦИЯ</p>
+                                            </div>
+                                            <div class="recent__img">
+                                                <img src="./imges/tovar.png" alt="">
+                                            </div>
+                                            <div class="recent__text">
+                                                <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
+                                            </div>
+                                            <div class="recent__down">
+                                                <div class="recent__numb">
+                                                    <p class="recent__numb--1">5689 грн</p>
+                                                    <p class="recent__numb--2">4295 грн</p>
+                                                </div>
+                                                <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="recently__item">
+                                            <div class="recently__disc">
+                                                <p style="margin: 0;">АКЦИЯ</p>
+                                            </div>
+                                            <div class="recent__img">
+                                                <img src="./imges/tovar.png" alt="">
+                                            </div>
+                                            <div class="recent__text">
+                                                <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
+                                            </div>
+                                            <div class="recent__down">
+                                                <div class="recent__numb">
+                                                    <p class="recent__numb--1">5689 грн</p>
+                                                    <p class="recent__numb--2">4295 грн</p>
+                                                </div>
+                                                <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="recently__item">
+                                            <div class="recently__disc">
+                                                <p style="margin: 0;">АКЦИЯ</p>
+                                            </div>
+                                            <div class="recent__img">
+                                                <img src="./imges/tovar.png" alt="">
+                                            </div>
+                                            <div class="recent__text">
+                                                <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
+                                            </div>
+                                            <div class="recent__down">
+                                                <div class="recent__numb">
+                                                    <p class="recent__numb--1">5689 грн</p>
+                                                    <p class="recent__numb--2">4295 грн</p>
+                                                </div>
+                                                <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                                <div class="recently__container">
+                                                    <div class="recently__item recently__item--1">
+                                                        <div class="recently__disc">
+                                                            <p style="margin: 0;">АКЦИЯ</p>
+                                                        </div>
+                                                        <div class="recent__img">
+                                                            <img src="./imges/tovar.png" alt="">
+                                                        </div>
+                                                        <div class="recent__text">
+                                                            <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
+                                                        </div>
+                                                        <div class="recent__down">
+                                                            <div class="recent__numb">
+                                                                <p class="recent__numb--1">5689 грн</p>
+                                                                <p class="recent__numb--2">4295 грн</p>
+                                                            </div>
+                                                            <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently__item">
+                                                        <div class="recently__disc">
+                                                            <p style="margin: 0;">АКЦИЯ</p>
+                                                        </div>
+                                                        <div class="recent__img">
+                                                            <img src="./imges/tovar.png" alt="">
+                                                        </div>
+                                                        <div class="recent__text">
+                                                            <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
+                                                        </div>
+                                                        <div class="recent__down">
+                                                            <div class="recent__numb">
+                                                                <p class="recent__numb--1">5689 грн</p>
+                                                                <p class="recent__numb--2">4295 грн</p>
+                                                            </div>
+                                                            <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently__item">
+                                                        <div class="recently__disc">
+                                                            <p style="margin: 0;">АКЦИЯ</p>
+                                                        </div>
+                                                        <div class="recent__img">
+                                                            <img src="./imges/tovar.png" alt="">
+                                                        </div>
+                                                        <div class="recent__text">
+                                                            <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
+                                                        </div>
+                                                        <div class="recent__down">
+                                                            <div class="recent__numb">
+                                                                <p class="recent__numb--1">5689 грн</p>
+                                                                <p class="recent__numb--2">4295 грн</p>
+                                                            </div>
+                                                            <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recently__item">
+                                                        <div class="recently__disc">
+                                                            <p style="margin: 0;">АКЦИЯ</p>
+                                                        </div>
+                                                        <div class="recent__img">
+                                                            <img src="./imges/tovar.png" alt="">
+                                                        </div>
+                                                        <div class="recent__text">
+                                                            <p>Доска кухонная hansgrohe F16 40960000 грецкий орех</p>
+                                                        </div>
+                                                        <div class="recent__down">
+                                                            <div class="recent__numb">
+                                                                <p class="recent__numb--1">5689 грн</p>
+                                                                <p class="recent__numb--2">4295 грн</p>
+                                                            </div>
+                                                            <div class="cart__shop"><i class="fa-solid fa-cart-shopping"></i></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
             </div>
+            
+            
             <div class="recent__scroll">
                 <div class="recent__scroll--1">1</div>
                 <div class="recent__line__container">
@@ -293,32 +375,32 @@
                 </div>
             </div>
             <div class="news__container">
-                <div class="news__img__item news__img__item--1">
+                <div class="news__img__item news__img__item--1 n_i_c">
                     <img src="./imges/news/0.png" alt="" class="news__img--0">
                     <div class="n_i_text n_i_text--0">
                         <p>Последние стили для ванной вашей мечты</p>
                     </div>
                 </div>
                 <div class="news__img__item news__img__item--2">
-                    <div class="n_i_c--1">
+                    <div class="n_i_c--1 n_i_c">
                         <img src="./imges/news/1.png" alt="" class="news__img--1">
                         <div class="n_i_text n_i_text--1">
                             <p>Выставка Hansgrohe в Брюсселе</p>
                         </div>
                     </div>
-                    <div class="n_i_c--2">
+                    <div class="n_i_c--2 n_i_c">
                         <img src="./imges/news/2.png" alt="" class="news__img--2">
                         <div class="n_i_text n_i_text--2">
                             <p>Иновации современности. Тренды 2021</p>
                         </div>
                     </div>
-                    <div class="n_i_c--3">
+                    <div class="n_i_c--3 n_i_c">
                         <img src="./imges/news/3.png" alt="" class="news__img--3">
                         <div class="n_i_text n_i_text--3">
                             <p>Последние стили для ванной вашей мечты</p>
                         </div>
                     </div>
-                    <div class="n_i_c--4">
+                    <div class="n_i_c--4 n_i_c">
                         <img src="./imges/news/4.png" alt="" class="news__img--4">
                         <div class="n_i_text n_i_text--4">
                             <p>Выставка Hansgrohe в Брюсселе</p>
@@ -597,5 +679,7 @@
             </div>
         </div>
     </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
