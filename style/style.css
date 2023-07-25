@@ -713,10 +713,29 @@ body {
     max-height: 500px; 
     position: relative;
 }
+.slick-prev {
+    position: absolute;
+    z-index: 1;
+    background: none;
+    font-size: 0;
+    width: 17px;
+    height: 17px;
+    border-bottom: 0px solid #1D252D;
+    border-right: 0px solid #1D252D;
+    transform: translateY(-50%) rotate(315deg);
+    cursor: pointer;
+}
 .slick-next {
-    position: relative;
-    top: 50px;
-    
+    position: absolute;
+    z-index: 1;
+    background: none;
+    font-size: 0;
+    width: 17px;
+    height: 17px;
+    border-bottom: 0px solid #1D252D;
+    border-right: 0px solid #1D252D;
+    transform: translateY(-50%) rotate(135deg);
+    cursor: pointer;
 }
 .slick-track {
     max-width: 1503px;
